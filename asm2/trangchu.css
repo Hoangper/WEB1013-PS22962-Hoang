@@ -1,0 +1,83 @@
+
+header {
+    height: 150px;
+    background-color:gray ;
+}
+header > h1 {
+    color:white;
+}
+.container > h1{
+    font-size:30px;
+    width: 15px;
+    text-align: center;
+}
+.sign > a{
+    top:15px;
+    right:0px;
+    font-weight: bold;
+    color: black;
+}
+.seach{
+    display: inline-block;
+    padding: 8px 30px 8px 450px;
+}
+.tuychon  nav  {
+    height: 350px;
+    width: 150px;
+    font-size: 15px;
+    text-align: justify;
+    font-family: sans-serif;
+    padding: 8px 30px 8px 20px;
+    background-color:white;
+    display: block;
+    float:left ;
+}
+.tuychon{
+    background-color:red;
+    width: 170xpx;
+    height: 400px;
+    font-size: 15px;
+}
+.tuychon  a {
+    color:black;
+}
+.tuychon > nav >a:hover{
+    color: red;
+}
+article{
+    color: #505050;
+}
+footer{
+    margin-top:50%;
+    padding: 8px 30px 8px 20px;
+    text-align: left;
+    float: left;
+    position: sticky;
+    bottom:20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: black;
+}
+.sanpham
+{
+    
+    width: 350px;
+    height: 400px;  
+    box-shadow: 0 0 5px gray ;
+    padding: 10px;
+    margin: 5px;
+    float: left;
+}
+.sanpham .ten
+{
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    height: 35px;
+    font-size: 14px;
+    margin: 10px;
+}
+.san-pham .sale{
+    font-size: 20px;
+    color: #ed0000;
+    font-weight: 700;
+}
