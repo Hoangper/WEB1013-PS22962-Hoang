@@ -1,0 +1,66 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/pexels-aleksandar-pasaric-325185.jpg);
+    min-height: 70px;
+    padding: 15px;
+}
+.main{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px #cccccc;
+    border-radius: 10px;
+}
+h1{
+    color: #990000;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.inputbox{
+    margin-bottom: 10px;
+}
+.inputbox input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.submitbox{
+    text-align: right;
+    margin-top: 30px;
+}
+.submitbox button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #cccccc;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+.submitbox button .reg{
+    color: #ffffff;
+    text-decoration: none;
+}
+.submitbox button .log{
+    color: #ffffff;
+    text-decoration: none;
+}
+.submitbox button :hover
+{
+    color: black;
+    font-family: sans-serif;
+}
