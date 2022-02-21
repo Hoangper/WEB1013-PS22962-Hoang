@@ -1,0 +1,143 @@
+
+header {
+    padding-top: 0;
+    height: 150px;
+    background-color:gray ;
+}
+header > h1 {
+    color:white;
+}
+header>a>img{
+   position: absolute;
+   width: 279px;
+}
+.container {
+    margin-top:0;
+}
+.container > h1{
+    font-size:30px;
+    width: 15px;
+}
+.seach{
+    display: inline;
+    padding: 0px 10px 0px;
+    margin-left: 450px;
+}
+.bodyimg>img
+{
+    margin-left: 200px;
+    width: 1180px;
+    height:400px;
+}
+.menu>ul>li
+{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>.user2
+{
+    margin-top: 0;
+    margin-left: 700px;
+}
+.menu>ul>li>a
+{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu>ul
+{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color:  gray;
+}
+.menu>ul>li>a:hover
+{
+    color: black;
+    background-color: aliceblue;
+ }
+.menu ul ul
+{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a
+{
+    font-variant: small-caps;
+    display: block;
+    line-height: 30px;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: x-small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu>ul>li:hover>ul
+{
+    display: block;
+}
+.menu ul ul a:hover
+{
+    background-color:grey;
+    color: white;
+}
+aside  iframe
+{
+    margin-left: 200px;
+    margin-top: 50px;
+    display: inline;
+    position: relative;
+    width: 1180px;
+    height: 500px;
+}
+footer>.footer1
+{
+    width: auto;
+    height: 240px;
+    display:block;
+    padding: 8px 30px 8px 20px;
+    text-align: left;
+    position: absolute;               
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: black;
+    background-color:darkgrey;
+} 
+footer>.footer2
+{
+    list-style: none;
+    margin-left: 1045px;
+    width: 450px;
+    height: 240px;
+    display:inline-block;
+    padding: 8px 30px 8px 20px;
+    text-align: left;
+    position: absolute;               
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: black;
+    background-color:darkgrey;
+} 
+.lienhe
+{
+    display:inline-block;
+}
+.inputmap iframe
+{
+       float: left;
+       margin-left: 444px;
+}  
